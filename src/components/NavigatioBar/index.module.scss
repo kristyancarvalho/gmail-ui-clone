@@ -1,0 +1,58 @@
+.container {
+    height: 63px;
+    width: 100vw;
+
+    padding: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 0 1px grey;
+
+    overflow: hidden;
+
+    .navLeft {
+        padding-left: 3.5px;
+
+        display: flex;
+        align-items: center;
+
+        > section {
+            margin: 4px 0 0 4px;
+        } 
+    }
+
+    .navMiddle {
+        padding-right: 100px;
+        overflow: hidden;
+
+        .searchBoxContainer {
+            height: 48px;
+            min-width: 720px;
+
+            display: flex;
+            align-items: center;
+
+            background: whitesmoke;
+
+            padding: 8px;
+
+            border-radius: 8px;
+        
+            input {
+                height: 100%;
+                width: 90%;
+
+                background: none;
+                border: none;
+
+                font-size: 16px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
