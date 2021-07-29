@@ -1,4 +1,5 @@
-import { NavigationBar } from '../components/NavigatioBar';
+import { NavigationBar } from '../components/NavigationBar';
+import { LeftSidebar } from '../components/LeftSidebar';
 
 import styles from '../styles/Home.module.scss';
 
@@ -6,7 +7,9 @@ export default function Home() {
   return (
     <>
       <NavigationBar />
-      <h1>teste</h1>
+      <main className={styles.main}>
+        <LeftSidebar />
+      </main>
     </>
   )
 }

@@ -1,10 +1,12 @@
-:root {
-  --grey: grey;
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  font-family: 'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}

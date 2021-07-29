@@ -1,6 +1,8 @@
 .container {
     height: 63px;
     width: 100vw;
+    
+    z-index: 5;
 
     padding: 8px;
 
@@ -22,7 +24,7 @@
             margin: 4px 0 0 4px;
         } 
     }
-
+    
     .navMiddle {
         padding-right: 100px;
         overflow: hidden;
