@@ -1,0 +1,115 @@
+.mainContainer {
+    height: 100vh;
+    
+    padding-left: 218px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .contentContainer {
+        height: 100%;
+        width: 76vw;
+
+        .mailOptions {
+            width: 100%;
+            height: 48px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            border-bottom: 1px solid #e6e6e6;
+
+            .mailOptionsRight {
+                display: flex;
+                align-items: center;
+
+                #mailsNumber {
+                    height: 36px;
+                    width: 86.72px;
+
+                    color: #5f6368;
+
+                    padding: 0 8px;
+
+                    background: white;
+                    border: none;
+
+                    border-radius: 3px;
+
+                    margin: 0 8px 0 0;
+
+                    transition: all .2s;
+
+                    &:hover {
+                        filter: brightness(0.9);
+                    }
+                }
+            }
+        }
+        
+        .mailNav {
+            height: 56px;
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+
+            border-bottom: 1px solid #e6e6e6;
+
+            .mailNavItemContainer {
+                height: 100%;
+                width: auto;
+
+                padding: 5px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                background: white;
+
+                &:hover {
+                    filter: brightness(0.9);
+                }
+
+                #selected {
+                    color: #d93025;
+
+                    padding: 13px 150px 18px 2px;
+
+                    border-bottom: 3px solid #d93025;
+
+                    > span {
+                        padding-top: 3px;
+                    }
+                }
+
+                > button {
+                    display: flex;
+                    justify-content: center;
+
+                    padding: 13px 150px 14px 2px;
+
+                    border: none;
+                    background: transparent;
+
+                    font-weight: 600;
+                    color: #717171;
+
+                    cursor: pointer;
+
+                    #mailNavItemTitle {
+                        margin: 0 0 0 12px;
+                    }
+
+                    > span {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

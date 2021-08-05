@@ -1,8 +1,9 @@
 .container {
+    position: absolute;
+    left: 0;
+
     width: 20vw;
     height: 100vh;
-
-    left: 0;
 
     background: transparent;
 
@@ -145,7 +146,6 @@
     }
 
     .bottomLeftSidebar {
-
         .googleMeet {
             padding: 15px 0 10px;
 
@@ -224,7 +224,6 @@
             }
 
             .googleHangouts {
-
                 padding: 15px 26px;
 
                 border-top: 1px solid #e6e6e6;
@@ -307,7 +306,7 @@
                 }
 
                 .buttons {
-                    height: 45px;
+                    height: 44px;
                     width: 50px;
 
                     background: transparent;
