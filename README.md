@@ -7,7 +7,7 @@
 <br />
 
 <div align="center">
-  <img height="100" width="400" src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-1-1.png"></img>
+  <img height="100" width="450" src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-1-1.png"></img>
 </div>
 
   <h3>Developed with:</h3>
