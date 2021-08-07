@@ -1,0 +1,127 @@
+#hidedOption {
+    visibility: hidden;
+
+    display: flex;
+    align-items: center;
+
+    margin-right: 2px;
+}
+
+#hidedOptions {
+    visibility: hidden;
+    
+    height: 40px;
+    width: 200px;
+    
+    z-index: 15;
+    
+    background: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #iconButtonBox {
+        margin: 0 -20px 0 0;
+    }
+}
+
+#visibleInfo {
+    margin-right: -200px;
+}
+
+#leftOptions {
+    margin-left: -20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.mailContainer {
+    width: 99.6%;
+    height: 40px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8px 0 2px;
+
+    border-bottom: 1px solid #e6e6e6;
+
+    &:hover {
+        z-index: 10;
+
+        box-shadow: 0 0 0.2em grey;
+
+        cursor: pointer;
+
+        #hidedOption {
+            visibility: visible;
+        }
+
+        #hidedOptions {
+            visibility: visible;
+        }
+    }
+
+    .mailLeft {
+        display: flex;
+        align-items: center;
+
+        > span {
+            font-weight: 700;
+            font-size: 14px;
+            color: #202124;
+
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+
+    .mailMiddle {
+        display: flex;
+        align-items: center;
+
+        margin-right: 400px;
+
+        > span {
+            font-weight: 700;
+            font-size: 14px;
+            color: #202124;
+
+            letter-spacing: 0.5px;
+        }
+
+        #mailSubject {
+            font-weight: normal;
+
+            color: #5f6368;
+        }
+
+        #separator {
+            height: 1px;
+            width: 5px;
+
+            background: #202124;
+
+            margin: 0 5px;
+        }
+    }
+
+    .mailRight {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-weight: 700;
+            font-size: 12px;
+            color: #202124;
+
+            font-family: 'Roboto', sans-serif;
+
+            margin: 0 12px 0 0;
+        }
+    }
+}

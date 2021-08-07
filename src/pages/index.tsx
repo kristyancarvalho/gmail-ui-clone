@@ -16,6 +16,7 @@ import { LeftSidebar } from '../components/LeftSidebar';
 import { RightSidebar } from '../components/RightSidebar';
 
 import styles from '../styles/Home.module.scss';
+import { Mail } from '../components/MailComponent';
 
 export default function Home() {
   return (
@@ -86,6 +87,16 @@ export default function Home() {
                 </button>
               </section>
             </div>
+            
+            <section className={styles.mailSection}>
+              <Mail />
+              <Mail />
+              <Mail />
+              <Mail />
+              <Mail />
+              <Mail />
+              <Mail />
+            </section>
         </section>
         <RightSidebar />
       </main>
